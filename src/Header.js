@@ -6,7 +6,7 @@ import SearchIcon from '@material-ui/icons/Search'
 
 function Header() {
   return (
-    <div className='header'>
+    <div className="header">
         <div className="header__logo">
         <StorefrontIcon className="header__logoImage" fontSize="large"></StorefrontIcon>
         <div className="header__logoTitle">eShop</div>
@@ -24,7 +24,7 @@ function Header() {
           <span className="nav__itemLineOne">Your</span>
           <span className="nav__itemLineTwo">Shop</span></div>
         <div className="nav__item">
-          <ShoppingBasketIcon className='itemBasket'></ShoppingBasketIcon>
+          <ShoppingBasketIcon className="itemBasket"></ShoppingBasketIcon>
           <span className="nav__itemLineTwo nav__basketCount">0</span></div>
       </div>
     </div>
